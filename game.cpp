@@ -10,6 +10,7 @@
 void runGame(sf::RenderWindow& window) {
     // Remember the menu's view and switch to a local one for gameplay.
     const sf::View savedView = window.getView();
+    const sf::View savedView = window.getView();
 
     const auto winSize = window.getSize();
     sf::View view(sf::FloatRect({ 0.f, 0.f },
